@@ -1,0 +1,76 @@
+ body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f1; /* Fond crème clair, comme la couleur de la terre */
+            color: #3e4a3d; /* Texte sombre, proche du vert forêt */
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* Liste non ordonnée (puces) */
+        ul.rien {
+            list-style-type: none; /* Supprimer les puces */
+            padding: 0;
+        }
+
+        ul.rien li {
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #d1e7d3; /* Vert pâle comme les feuilles fraîches */
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        ul.rien li:hover {
+            background-color: #a8d4a1; /* Vert un peu plus vif au survol */
+        }
+
+        /* Liste ordonnée (numérotation classique) */
+        ol {
+            margin-left: 20px;
+            padding: 0;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+            background-color: #f9ebc5; /* Jaune clair comme du sable ou de la paille */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Liste ordonnée avec numérotation à zéro (01, 02...) */
+        ol.commence_a_zero {
+            list-style-type: decimal-leading-zero;
+        }
+
+        /* Liste ordonnée avec lettres minuscules */
+        ol.lettres_minuscules {
+            list-style-type: lower-alpha;
+        }
+
+        /* Liste ordonnée avec chiffres romains */
+        ol.chiffres_romains {
+            list-style-type: upper-roman;
+        }
+
+        /* Liste ordonnée avec lettres grecques (non supporté sur IE) */
+        ol.lettres_grecques {
+            list-style-type: lower-greek;
+        }
+
+        /* Style des paragraphes */
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #6a6a6a; /* Gris foncé pour les textes normaux */
+        }
+
+        /* Style des éléments en italique et gras */
+        em {
+            color: #7a9e67; /* Vert doux pour les mots en italique */
+        }
+
+        strong {
+            color: #9c6a3c; /* Brun terreux pour les mots en gras */
+        }
+   

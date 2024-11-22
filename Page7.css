@@ -1,0 +1,124 @@
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rosybrown; /* Fond de couleur pour toute la page */
+    color: #333; /* Texte sombre pour contraste */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Utilise toute la hauteur de l'écran */
+    flex-direction: column; /* Permet d'avoir tout aligné verticalement */
+}
+
+/* Formulaire */
+form {
+    background-color: #fff; /* Fond blanc pour le formulaire */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce autour du formulaire */
+    width: 80%; /* Formulaire s'étend à 80% de la largeur de l'écran */
+    max-width: 1000px; /* Largeur maximale */
+    margin: 20px auto; /* Centré sur la page avec un petit espace autour */
+    box-sizing: border-box;
+}
+
+/* Fieldset */
+fieldset {
+    border: 2px solid #27ae60; /* Bordure verte douce */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #d0e9d8; /* Arrière-plan vert pâle */
+}
+
+/* Légende */
+legend {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #2c3e50; /* Couleur foncée pour la légende */
+    padding-bottom: 10px;
+}
+
+/* Style des labels et inputs */
+label {
+    font-size: 1em;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+input[type="radio"],
+input[type="checkbox"] {
+    width: 100%; /* Largeur à 100% pour occuper toute la ligne */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #27ae60; /* Bordure verte */
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #f7f9f2; /* Fond beige très léger */
+    color: #333;
+    box-sizing: border-box; /* Inclus la largeur de la bordure dans la largeur totale */
+    transition: background-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+    background-color: #f0f4e4; /* Fond légèrement plus foncé au focus */
+    border-color: #2ecc71; /* Bordure plus claire au focus */
+    outline: none;
+}
+
+/* Style des boutons */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #27ae60; /* Vert doux pour les boutons */
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #2ecc71; /* Changement de couleur au survol */
+}
+
+/* Style des boutons radio et checkbox */
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+    font-weight: bold;
+    color: #27ae60; /* Change la couleur du texte des labels au survol */
+}
+
+/* Spacing */
+p {
+    margin-bottom: 12px;
+}
+
+fieldset p {
+    margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    form {
+        width: 90%; /* Moins large sur les petits écrans */
+        padding: 20px;
+    }
+
+    /* Réduire la taille de police et ajuster les champs pour les petits écrans */
+    label, input, select, textarea {
+        font-size: 0.9em;
+    }
+}

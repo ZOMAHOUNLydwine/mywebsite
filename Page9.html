@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merci pour votre visite !</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Unbounded&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            background-color: #2D1A64; /* Violet sombre, presque noir, pour un fond mystérieux */
+            color: #E6E6FA; /* Lavande clair pour le texte */
+            font-family: 'Unbounded', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            color: #9B4F96; /* Violet riche, comme une fleur de lavande profonde */
+            font-size: 3.5rem;
+            text-align: center;
+            text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6); /* Ombre noire légère pour un effet dramatique */
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        p {
+            color: #D8B0D4; /* Violet pâle, doux, avec une touche florale */
+            font-size: 1.2rem;
+            text-align: center;
+            margin-top: 20px;
+            animation: fadeInText 3s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInText {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Styling for the container */
+        .thank-you-container {
+            background-color: #4C1C60; /* Violet foncé, comme un fond de fleurs de nuit */
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 0 30px rgba(138, 43, 226, 0.8); /* Ombre violette pour un halo mystérieux */
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        /* Button Styling */
+        .btn {
+            background-color: #8A2BE2; /* Bleu-violet brillant, comme la lavande en fleur */
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            margin-top: 30px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #9B4F96; /* Hover sur un violet plus profond pour accentuer le thème floral */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="thank-you-container">
+        <h1>Merci pour votre visite !</h1>
+        <p>Nous vous remercions chaleureusement de consulter notre site. Votre présence nous est précieuse, et nous espérons que vous avez trouvé ce que vous cherchiez. Revenez bientôt !</p>
+        <button class="btn" onclick="window.location.href='Page1.html'">Retour à l'accueil</button>
+    </div>
+
+</body>
+</html                                                                                                                                                                                                                                                 ,   >

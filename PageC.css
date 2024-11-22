@@ -1,0 +1,38 @@
+body {
+            background-color: rgb(75, 4, 4);
+            color: violet;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h2, h3 {
+            color: green;
+        }
+
+        img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%; /* Rend les images rondes */
+            margin: 0 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ajoute une ombre */
+        }
+        dl {
+            text-align: left;
+            margin: 0;
+            padding: 10px;
+        }
+
+        dt {
+            font-weight: bold;
+            color: brown;
+        }
+
+        dd {
+            margin: 0 0 10px 20px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color:blueviolet;
+        }

@@ -1,0 +1,7 @@
+
+
+/* Cibler la deuxième ligne du tbody */
+tbody tr:nth-child(2) td {
+    border-bottom: 2px dashed rgb(28, 26, 37);
+}
+

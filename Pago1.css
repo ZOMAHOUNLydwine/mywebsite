@@ -1,0 +1,53 @@
+Pago.css
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7, #ce93d8);
+    color: #333;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Style du conteneur principal */
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style des titres */
+h1 {
+    font-size: 2.5em;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #8e24aa;
+    margin-top: 0;
+}
+
+/* Style du bouton */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ab47bc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #7b1fa2;
+}

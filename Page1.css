@@ -1,0 +1,15 @@
+Page1.CSS
+
+body {
+    margin: 0; /* Supprime les marges par défaut du body */
+}
+.image {
+    position: absolute; /* Positionne l'image par rapport à la page */
+    top: 0; /* Place l'image tout en haut */
+    left: 0; /* Place l'image à gauche */
+    width: 100%; /* L'image occupe toute la largeur de la page */
+    height: auto; /* Maintient le rapport hauteur/largeur de l'image */
+}
+h1, h2, h3, p {
+    text-align: center; /* Centre le texte */
+}
